@@ -1,0 +1,12 @@
+3.6. 3.7
+텐서플로우1과 2를 동시에 사용하고 싶다면 파이썬 3.6. /3.7 버전을 사용하자,
+ 
+텐서플로우는 설치 후에 노트북을 재실행해야지 제대로 실행이 된다.
+
+pip install tensorflow       => 최신 버전이 깔림
+pip install tensorflow==1.15.0 
+pip install protobuf==3.20.*   # 1.15.0 버전이 오류뜨면 해결하기
+
+pip install --upgrade tensorflow    =>원하는 버전으로 업그레이드하기  
+
+epoch => 버전을 다시 1점대로 낮추고 싶을 때 사용한다.
